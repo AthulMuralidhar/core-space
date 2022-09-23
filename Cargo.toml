@@ -6,5 +6,8 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-rosrust = "0.9"
-rosrust_msg = "0.1"
+rosrust = "0.9.10"
+rosrust_msg = "0.1.6"
+
+[toolchain]
+channel = "nightly"
